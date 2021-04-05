@@ -74,5 +74,30 @@
    
    <p>Após a resolução destes 2 problemas chegamos em um resultado perfeito onde cada membro se move relativamente para onde o lobo esta e onde esta olhando.</p>
    <img src="https://media.giphy.com/media/U3GFIhMnsJ3ZLswDTR/giphy.gif" width="480px" height="270px" frameBorder="0" class="giphy-embed" allowFullScreen>
-    
+   
+   
+<h2>
+<strong>Obetenção de mascotes</strong>
+</h2>
+  <p><b> Ovos </b></p>
+    <p>Ovos podem ser comprados com dinheiro virtual (cash) ou obtidos através de mascotes repetidos. A configuração de o que cada ovo tem e suas chances podem ser configuradas pelo administrador do servidor através de 2 arquivos yml, um deles da configuração em geral de cada raridade dos ovos e o outro o arquivo do proprio ovo. Os ovos podem ser visualizados pelos jogadores por um menu virtual utilizando o comando /pets.</p>
+   <img src="https://i.imgur.com/eSc6Ocu.jpg" width="548px" height="450px">
+   <img src="https://i.imgur.com/13vj8wJ.png" width="300px" height="315px">
+  
+  <p><b> Incubadoras </b></p>
+  <p>Incubadoras são onde os ovos são colocados pelo jogador de forma virtual. Para choca-los o jogador deverá fornecer combustivel para a incubadora, combustiveis como carvão, madeira, lava, etc. Dependendo da raridade do mascote que será chocado o tempo de espera será maior, o jogador pode optar por pular o tempo de espera com dinheiro virtual (cash). Após o tempo de espera acabar o jogador irá roletar uma roleta com a cabeça dos mascotes para descobrir qual ele ganhou.</p>
 
+   <img src="https://i.imgur.com/EN4nhaF.png">
+   <img src="https://i.imgur.com/MTM48YF.png">
+   <img src="https://media.giphy.com/media/rt2r9cJ3AQYM76jZZL/giphy.gif" width="480px" height="270px" frameBorder="0" class="giphy-embed" allowFullScreen>
+
+
+<h2>
+<strong>Utilização dos mascotes</strong>
+</h2>
+  <p><b> Seleção de mascotes </b></p>
+  <p>O jogador pode escolher e ativar algum mascote dentre os mascotes que já tem desbloqueado através de um menu virtual que pode ser aberto utilizando o comando /pets.</p>
+   <img src="https://i.imgur.com/PK8wU1K.png">
+  <p><b> Coletar itens </b></p>
+  <p>Os mascotes coletam itens automaticamente com um inventario de tamanho X onde pode ser definido pelo administrador do servidor, os itens coletados pelo mesmo podem ser retirados pelo mesmo menu de ativação do mascote, apertando o botão 9 sobre sua cabeça.</p>
+   <img src="https://media.giphy.com/media/yQWQsaQTEQXpDtPF9b/giphy.gif" width="480px" height="270px" frameBorder="0" class="giphy-embed" allowFullScreen>
