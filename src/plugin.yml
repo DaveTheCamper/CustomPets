@@ -1,7 +1,7 @@
 name: PetsOnFire
 version: 1.0.0
-author: Firemanarg, DaveTheCamper
-main: br.firemanarg.petsonfire.Main
+author: DaveTheCamper
+main: me.davethecamper.custompets.Main
 api-version: 1.16
 commands:
   pof_summon:

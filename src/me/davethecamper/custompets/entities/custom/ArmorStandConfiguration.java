@@ -10,7 +10,6 @@ import org.bukkit.persistence.PersistentDataType;
 
 import me.davethecamper.custompets.PetsManager;
 import me.davethecamper.custompets.Utils;
-import me.davethecamper.custompets.entities.custom.bone.Bone;
 import me.davethecamper.custompets.objects.Coords;
 
 public class ArmorStandConfiguration {
@@ -176,55 +175,15 @@ public class ArmorStandConfiguration {
 	}
 	
 	
-	private final double LEGS_INITIAL_ANGLE = 270;
-	
 	public Location update(SummonedPet smp, ArmorStand ars) {
 		Location l = smp.getLocation();
+		Location temp = l.clone();
 		
 		float yaw = l.getYaw();
 		
 		double init_x = coords_main.getX();
 		double init_z = coords_main.getZ();
 		double x = 0, z = 0, y = coords_main.getY();
-		
-		switch (Utils.getPersistentValue(ars, "type", PersistentDataType.STRING)) {
-			case "head":
-				break;
-				
-			case "legs":
-				if (smp.isBone(this) && (smp.isMoving() || smp.getBone(this).getTick() != 0)) {
-					Bone bone = smp.getBone(this);
-					double speed = smp.getSpeed();
-					double max_mov_angle = (speed/0.1)*10;
-					double ticks = bone.getTick();
-					double angulo_calculado = (max_mov_angle/2)*(((double)ticks)/20);
-					if (bone.getConfig().getMainBone().equals(this)) {
-						
-					} else {
-						double angulo_atual = LEGS_INITIAL_ANGLE + angulo_calculado;
-						double angulo_pi = (angulo_atual/360 * (Math.PI*2));
-						double raio = Math.sqrt(Math.pow(init_z, 2) + Math.pow(y, 2));
-
-
-						//Bukkit.broadcastMessage(y + " y " + this.getMembroName());
-						
-						y = raio * Math.sin(angulo_pi);
-						
-						//Bukkit.broadcastMessage(raio + " raio " + this.getMembroName());
-						
-						
-						
-						init_z += raio*Math.cos(angulo_pi);
-						
-					}
-					
-					//ars.setHeadPose(new EulerAngle(angulo_calculado, 0, 0));
-				}
-				break;
-				
-			default:
-				break;
-		}
 		
 		double raio = Math.sqrt(Math.pow(init_x, 2) + Math.pow(init_z, 2));
 		
@@ -237,7 +196,6 @@ public class ArmorStandConfiguration {
 		
 		// Head ter difirença no angulo yaw, pois tem rotação com a cabeça do cachorro enquanto o resto do corpo não
 		
-		Location temp = l.clone();
 		temp.setY(temp.getY() + y);
 		temp.setX(temp.getX() + x);
 		temp.setZ(temp.getZ() + z);

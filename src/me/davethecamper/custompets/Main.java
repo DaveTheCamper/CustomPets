@@ -1,5 +1,8 @@
 package me.davethecamper.custompets;
 
+import java.util.HashMap;
+import java.util.UUID;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -8,9 +11,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import me.davethecamper.custompets.eggs.OvosManager;
 import me.davethecamper.custompets.objects.EntityHider;
 import me.davethecamper.custompets.objects.PlayerProfile;
-
-import java.util.HashMap;
-import java.util.UUID;
 
 public class Main extends JavaPlugin {
 	
