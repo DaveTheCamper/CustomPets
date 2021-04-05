@@ -100,4 +100,4 @@
    <img src="https://i.imgur.com/PK8wU1K.png">
   <p><b> Coletar itens </b></p>
   <p>Os mascotes coletam itens automaticamente com um inventario de tamanho X onde pode ser definido pelo administrador do servidor, os itens coletados pelo mesmo podem ser retirados pelo mesmo menu de ativação do mascote, apertando o botão 9 sobre sua cabeça.</p>
-   <img src="https://media.giphy.com/media/yQWQsaQTEQXpDtPF9b/giphy.gif" width="480px" height="270px" frameBorder="0" class="giphy-embed" allowFullScreen>
+   <img src="https://user-images.githubusercontent.com/44680026/113607690-e5e3db80-961f-11eb-8bd4-9ba78eae0bbd.gif" width="480px" height="270px" frameBorder="0" class="giphy-embed" allowFullScreen>
