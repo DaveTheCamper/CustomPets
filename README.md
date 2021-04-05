@@ -35,8 +35,8 @@
     </br>
     <p>Como estas entidades podem equipar cabeças de jogadores e cabeças de jogadores dependem de qual skin o mesmo esta usando, podemos usar inumeras texturas para vestir os suportes de armaduras. Particularmente eu gosto de usar este <a href="https://minecraft-heads.com/custom-heads/head-database" target="_blank">banco de dados.</a></p>
     <p>Suportes de armaduras podem ter 2 tamanhos, normal e pequeno, também podem ser deixadas invisiveis, assim só aparecendo os itens equipados.</p>
-    
-    
+    </br>
+   
    <img width="700px" height="300px" src="https://i.imgur.com/ua5OnHL.jpg" alt="ArmorStand"> 
     
     
