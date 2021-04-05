@@ -1,0 +1,140 @@
+speed: 0.22
+slots: 2
+
+membros:
+  head:
+    coordenadas:
+      x: 0.0
+      y: -0.6000000000000001
+      z: 0.01999999999999997
+      headpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: false
+    head_item:
+      default: eyJ0aW1lc3RhbXAiOjE1NzcyMjQ0NjE3NzUsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MGI3ZmYwMzViYjg3NjFlYjQwZTg2ZjNhMTdmYWVlMzQ5ZGJjY2NkODRhNzc3MDNiNDdlOTg5NGExZGY4NDdmIn19fQ==
+  body:
+    coordenadas:
+      x: 0.0
+      y: -1.1
+      z: -0.03
+      headpose:
+        x: 24.699999999999996
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: false
+    head_item:
+      default: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzOTA4ZDI5ZjIyMmM1NTllYTc2ZGJhN2M2MzE1YWFmMGQxYzQ0YTQ5Y2JhZWY3ZjEwZmYyNmZmOGM4NjJmOCJ9fX0
+  leg1:
+    coordenadas:
+      x: 0.5
+      y: -0.29000000000000004
+      z: 0.15
+      headpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: true
+    head_item:
+      default: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzOTA4ZDI5ZjIyMmM1NTllYTc2ZGJhN2M2MzE1YWFmMGQxYzQ0YTQ5Y2JhZWY3ZjEwZmYyNmZmOGM4NjJmOCJ9fX0
+  leg3:
+    coordenadas:
+      x: 0.5
+      y: -0.7000000000000001
+      z: 0.15
+      headpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: true
+    head_item:
+      default: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzOTA4ZDI5ZjIyMmM1NTllYTc2ZGJhN2M2MzE1YWFmMGQxYzQ0YTQ5Y2JhZWY3ZjEwZmYyNmZmOGM4NjJmOCJ9fX0
+  leg2:
+    coordenadas:
+      x: -0.5
+      y: -0.30000000000000004
+      z: 0.15
+      headpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: true
+    head_item:
+      default: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzOTA4ZDI5ZjIyMmM1NTllYTc2ZGJhN2M2MzE1YWFmMGQxYzQ0YTQ5Y2JhZWY3ZjEwZmYyNmZmOGM4NjJmOCJ9fX0
+  leg4:
+    coordenadas:
+      x: -0.5
+      y: -0.7000000000000001
+      z: 0.15
+      headpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: true
+    head_item:
+      default: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzOTA4ZDI5ZjIyMmM1NTllYTc2ZGJhN2M2MzE1YWFmMGQxYzQ0YTQ5Y2JhZWY3ZjEwZmYyNmZmOGM4NjJmOCJ9fX0
+  leg5:
+    coordenadas:
+      x: 0.4
+      y: -0.7000000000000115
+      z: -0.56
+      headpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: true
+    head_item:
+      default: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzOTA4ZDI5ZjIyMmM1NTllYTc2ZGJhN2M2MzE1YWFmMGQxYzQ0YTQ5Y2JhZWY3ZjEwZmYyNmZmOGM4NjJmOCJ9fX0
+  leg6:
+    coordenadas:
+      x: -0.4
+      y: -0.7
+      z: -0.5499999999999999
+      headpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      handpose:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+    visible: false
+    small: true
+    head_item:
+      default: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMzOTA4ZDI5ZjIyMmM1NTllYTc2ZGJhN2M2MzE1YWFmMGQxYzQ0YTQ5Y2JhZWY3ZjEwZmYyNmZmOGM4NjJmOCJ9fX0

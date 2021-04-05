@@ -1,0 +1,25 @@
+raridades:
+  lendario:
+    ordem: 1
+    fragmentos: 100
+    horas: 36
+    tier_necessario: 0
+    nome: "Lendário"
+    prefixo: "§6"
+    chance: 0.5
+  epico:
+    ordem: 2
+    fragmentos: 20
+    horas: 12
+    tier_necessario: 2
+    nome: "Epico"
+    prefixo: "§5"
+    chance: 5
+  normal:
+    ordem: 3
+    fragmentos: 1
+    horas: 4
+    tier_necessario: 4
+    nome: "Normal"
+    prefixo: "§a"
+    chance: 94.5

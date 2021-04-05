@@ -1,0 +1,14 @@
+name: PetsOnFire
+version: 1.0.0
+author: Firemanarg, DaveTheCamper
+main: br.firemanarg.petsonfire.Main
+api-version: 1.16
+commands:
+  pof_summon:
+    aliases: [pets, pet]
+permissions:
+  admin:
+    description: Can summon as many entities as the Player wants.
+    default: op
+  common-player:
+    description: Can access all common functionalities of the plugin.

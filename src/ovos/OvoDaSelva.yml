@@ -1,0 +1,15 @@
+nome: "§2§lOvo da selva" 
+material: SLIME_SPAWN_EGG
+
+pets:
+  lendario:
+    - Tigre
+  epico:
+    - Jacare
+    - Aguia
+  normal:
+    - Tartaruga
+    - Elefante
+    - Macaco
+    - Girafa
+    - Capivara
