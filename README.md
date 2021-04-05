@@ -50,18 +50,29 @@
 </h2>
     <p>Para criarmos um mascote com cabeças customizadas precisamos invocar um lobo fiel ao jogador, armazenar este lobo na memoria viculado ao jogador e teleportar suportes de armaduras invisiveis por onde o lobo andar, porém isso não é o suficiente. Se apenas teleportarmos o suporte de armaduras para a posição do lobo teremos 2 problemas:</p>
     <ul>
-      <li>1° -> Elas possuem posições relativas ás coodenadas do lobo, ou seja, todas tem um x, y, z á ser acrescentados de acordo para onde o lobo está olhando.</li>
-      <li>2° -> A rotação da cabeça de cada suporte de armaduras é diferente de acordo com a distancia do centro;</li>
+      <li>1° -> Elas possuem posições relativas ás coodenadas do lobo, ou seja, todas tem um x, y, z á ser acrescentados de acordo para onde o lobo está olhando;</li>
+      <li>2° -> A rotação da cabeça de cada suporte de armaduras é diferente de acordo com a distancia do centro.</li>
     </ul>
     <p>Caso não resolvermos estes 2 problemas o nosso mascote personalizado ficará desta forma:</p>
    
    <img src="https://media.giphy.com/media/ARisZb6AFBq7692aKw/giphy.gif" width="480px" height="270px" frameBorder="0" class="giphy-embed" allowFullScreen>
     
   <p><b> Resolução dos problemas </b></p>
-    <p>Além das coordenadas globais do lobo (x, y, z) nós temos as informações de rotação de cabeça do mesmo, yaw em pitch.</p>
+    <p>Precisaremos atualizar cada membro (suporte de armaduras) de acordo com sua posição relativa ao lobo, assim como para onde estarão olhando, pois um membro que esta relativamente na frente de onde o lobo está olhando tem uma rotação diferente do que um membro que esta relativamente atrás de onde o lobo estará olhando.</p>
     
-   <img src="https://i.imgur.com/zxnYJVO.jpg" width="480px" height="380px" frameBorder="0" class="giphy-embed" allowFullScreen>
+   <p>Descobrir o raio do membro do lobo da forma sqrt(x² + y²), após isso descobrir o real x e y com seno e cosseno do angulo.</p>
    
-   <p>Sabendo disso, podemos usar a informação Yaw para identificar qual direção o lobo esta olhando, ela varia de 0-360</p>
+   <img src="https://i.imgur.com/CMrOsgJ.png" width="400px" height="70px">
+   
+   <p>Além das coordenadas globais do lobo (x, y, z) nós temos as informações de rotação de cabeça do mesmo, yaw em pitch.</p>
+   <img src="https://i.imgur.com/zxnYJVO.jpg" width="480px" height="380px">
+   <p>Sabendo disso, podemos usar a informação Yaw para identificar qual direção o lobo esta olhando e transforma-la em graus para descobrir a rotação exata que cada membro deverá fazer.</p>
+   
+   <img src="https://i.imgur.com/wfJx8D8.jpg" width="400px" height="400px">
+   <img src="https://i.imgur.com/ixOb1eh.jpg" width="400px" height="400px">
+   
+   
+   <p>Após a resolução destes 2 problemas chegamos em um resultado perfeito onde cada membro se move relativamente para onde o lobo esta e onde esta olhando.</p>
+   <img src="https://media.giphy.com/media/U3GFIhMnsJ3ZLswDTR/giphy.gif" width="480px" height="270px" frameBorder="0" class="giphy-embed" allowFullScreen>
     
 
