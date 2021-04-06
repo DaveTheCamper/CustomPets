@@ -62,7 +62,7 @@
     
    <p>Descobrir o raio do membro do lobo da forma sqrt(x² + y²), após isso descobrir o real x e y com seno e cosseno do angulo.</p>
    
-   <img src="https://i.imgur.com/CMrOsgJ.png" width="400px" height="70px">
+   <img src="https://i.imgur.com/CMrOsgJ.png">
    
    <p>Além das coordenadas globais do lobo (x, y, z) nós temos as informações de rotação de cabeça do mesmo, yaw em pitch.</p>
    <img src="https://i.imgur.com/zxnYJVO.jpg" width="480px" height="380px">
